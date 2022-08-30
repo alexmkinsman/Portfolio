@@ -1,21 +1,23 @@
 /*control the style of the general body, which applies to the entire page.*/
 body {
-    background-color:#8B4000;
-    
+  background-color:#a67556;
+  text-decoration: none;
 }
 
 h1 {
-    color:antiquewhite;
-    font-style: italic;
-    font-size:100px;
+  color:antiquewhite;
+  font-style: italic;
+  font-size:100px;
 }
+
 /*control the style of the header, including the title and links*/
 header {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:#8B4000;
-    margin:10px 10px 10px 20px;
-    display:block;
-
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color:#a67556;
+  display:block;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* formatting the links to the page */
@@ -29,20 +31,25 @@ header {
 
 /*targets the <a> links*/
 .preview a {
-    text-decoration: none;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:azure;
-    background-color:#8B4000;
-    line-height: 20px;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:azure;
+  line-height: 20px;
+  margin:20px;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /*targets all items under "projects" class in main section*/
 .projects {
-    display:inline;
-    margin: 10px;
-    justify-content:space-around;
+  text-decoration: none;
+  display:inline;
+  margin: 10px;
+  justify-content:space-around;
 }
 
+/* styles the main body */
 main {
   display:inline-block;
   text-decoration: none;
@@ -51,27 +58,79 @@ main {
   flex-wrap: wrap;
 }
 
-.title {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:azure;
-  background-color:#8B4000;
-  line-height: 20px;
+/*styles selfie- unsure why It doesn't work...*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-p {
+/*style the bio*/
+.bio {
+  text-decoration: none;
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
-
+  margin:10% 20% 10% 20%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:azure;
+  background-color:#a67556;
+  line-height: 20px;
 }
 
+/* styles h2 within section and specifies the font style*/
+.title {
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:azure;
+  background-color:#a67556;
+  line-height: 20px;
+}
+
+/*formats <p> values*/
+p {
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*styles footer*/
 footer {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:azure;
-  background-color:#8B4000;
+  background-color:#a67556;
   line-height: 20px;
   margin:30px;
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/*tablets/computers header changes color*/
+@media screen and (max-width: 1500px) {
+  header {
+    background: #a67556;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 75px; 
+  }
+  header {
+    background-color: #8B4000;
+  }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+  header {
+    background-color: #772014;
+  }
 }
