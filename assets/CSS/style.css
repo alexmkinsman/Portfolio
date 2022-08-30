@@ -1,0 +1,77 @@
+/*control the style of the general body, which applies to the entire page.*/
+body {
+    background-color:#8B4000;
+    
+}
+
+h1 {
+    color:antiquewhite;
+    font-style: italic;
+    font-size:100px;
+}
+/*control the style of the header, including the title and links*/
+header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#8B4000;
+    margin:10px 10px 10px 20px;
+    display:block;
+
+}
+
+/* formatting the links to the page */
+.preview {
+  display:inline-block;
+  text-decoration: none;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/*targets the <a> links*/
+.preview a {
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+    background-color:#8B4000;
+    line-height: 20px;
+}
+
+/*targets all items under "projects" class in main section*/
+.projects {
+    display:inline;
+    margin: 10px;
+    justify-content:space-around;
+}
+
+main {
+  display:inline-block;
+  text-decoration: none;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:azure;
+  background-color:#8B4000;
+  line-height: 20px;
+}
+
+p {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+footer {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:azure;
+  background-color:#8B4000;
+  line-height: 20px;
+  margin:30px;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
