@@ -41,6 +41,7 @@ header {
   justify-content:space-around;
 }
 
+/* styles the main body */
 main {
   display:inline-block;
   text-decoration: none;
@@ -49,6 +50,7 @@ main {
   flex-wrap: wrap;
 }
 
+/* styles h2 within section and specifies the font style*/
 .title {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:azure;
@@ -56,13 +58,14 @@ main {
   line-height: 20px;
 }
 
+/*formats <p> values*/
 p {
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
+/*styles footer*/
 footer {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:azure;
