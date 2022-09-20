@@ -109,28 +109,28 @@ footer {
 }
 
 /*tablets/computers header changes color*/
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
   header {
     background: #a67556;
   }
 }
 
 /* Large smartphones - navbar changes color */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   h1 {
     font-size: 75px; 
   }
   header {
     background-color: #8B4000;
   }
-}
+} */
 
 /* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   h1 {
     font-size: 50px;
   }
   header {
     background-color: #772014;
   }
-}
+} */
